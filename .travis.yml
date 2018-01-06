@@ -41,8 +41,9 @@ deploy:
   - provider: pages
     skip_cleanup: true
     github_token: $GITHUB_TOKEN
+    script: scripts/update_po_file.sh
     on:
-      branch: master
-      repo: baidu/bigflow
+      branch: test
+      #repo: baidu/bigflow
       condition: "$JOB = build_doc"
     local_dir: ./doc/html
