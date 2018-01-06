@@ -43,7 +43,6 @@ deploy:
   - provider: pages
     skip_cleanup: true
     github_token: $GITHUB_TOKEN
-    script: scripts/update_po_file.sh
     on:
       branch: test
       #repo: baidu/bigflow
