@@ -16,4 +16,4 @@ git_push() {
 
 git_setup
 git_add
-git_push
+#git_push
