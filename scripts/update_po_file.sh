@@ -6,7 +6,7 @@ git_setup() {
 }
 
 git_add() {
-    git add ../doc/locales
+    git add doc/locales
     git commit --message "Update po files: $TRAVIS_BUILD_NUMBER"
 }
 
