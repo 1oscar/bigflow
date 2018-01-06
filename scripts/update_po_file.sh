@@ -11,7 +11,7 @@ git_add() {
 }
 
 git_push() {
-    git push --quiet test
+    git push origin test
 }
 
 git_setup
