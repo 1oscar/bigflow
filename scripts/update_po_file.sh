@@ -14,6 +14,6 @@ git_push() {
     git push origin test
 }
 
-git_setup
-git_add
+#git_setup
+#git_add
 #git_push
