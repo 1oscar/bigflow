@@ -12,7 +12,7 @@ git_add() {
 }
 
 git_push() {
-    git push --quiet --follow-tags "https://$GITHUB_TOKEN@github.com/$TRAVIS_REPO_SLUG" "$TRAVIS_BRANCH"
+    git push origin test
 }
 
 git_setup
