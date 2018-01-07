@@ -12,7 +12,7 @@ git_add() {
 }
 
 git_push() {
-    git push origin test
+    git push --quiet origin test
 }
 
 git_setup
