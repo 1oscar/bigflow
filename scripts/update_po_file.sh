@@ -6,6 +6,7 @@ git_setup() {
 }
 
 git_add() {
+    git checkout $TRAVIS_BRANCH
     git add doc/locales/en/LC_MESSAGES/*.po
     git add doc/locales/zh/LC_MESSAGES/*.po
     git commit --message "Update po files: $TRAVIS_BUILD_NUMBER"
