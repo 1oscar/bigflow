@@ -13,7 +13,7 @@ git_add() {
 
 git_push() {
     git remote add origin-test https://$GITHUB_TOKEN@github.com/yshysh/bigflow.git
-    git push --quiet --set-upstream origin-test test
+    git push --set-upstream origin-test test
 }
 
 git_setup
