@@ -3,6 +3,7 @@
 git_setup() {
     git config --global user.email "travis@travis-ci.org"
     git config --global user.name "Travis CI"
+    cp -r /root/bigflow/build_doc_po_file/bigflow/doc/locales /root/bigflow/doc/
 }
 
 copy_file() {
@@ -26,6 +27,6 @@ git_push() {
 }
 
 git_setup
-copy_file
-git_add
-git_push
+#copy_file
+#git_add
+#git_push
