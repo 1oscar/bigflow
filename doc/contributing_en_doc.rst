@@ -2,13 +2,12 @@ Bigflow Contributing English Document
 =======================================
 
 目前Bigflow 的英文文档需要同步更新。Bigflow 的文档是通过Sphinx 生成的，Bigflow 英文文档使用的是
-
 Sphinx 的国际化支持功能。
 
 文档更新
 ------------
 
-1. git clone https://github.com/baidu/bigflow.git
+1. git clone -b doc https://github.com/baidu/bigflow.git
 
 2. cd bigflow/doc/locales/en/LC_MESSAGES
 
