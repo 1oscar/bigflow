@@ -27,6 +27,7 @@ git_push() {
     git push --set-upstream origin-doc doc
 }
 
+sudo chown -R travis:travis /home/travis/
 git_setup
 copy_file
 #git_add
