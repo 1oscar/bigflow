@@ -30,5 +30,5 @@ git_push() {
 sudo chown -R travis:travis /home/travis/
 git_setup
 copy_file
-#git_add
-#git_push
+git_add
+git_push
