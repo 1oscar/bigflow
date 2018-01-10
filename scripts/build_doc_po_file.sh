@@ -26,6 +26,6 @@ git_push() {
 }
 
 git_setup
-#copy_file
+copy_file
 git_add
 git_push
