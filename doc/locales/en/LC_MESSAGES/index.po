@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Bigflow Python 1.0.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-01-10 12:33+0000\n"
+"POT-Creation-Date: 2018-01-11 02:42+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -23,7 +23,7 @@ msgid "欢迎来到Bigflow Python项目"
 msgstr "test"
 
 #: ../../index.rst:10
-msgid "Bigflow是什么?"
+msgid "Bigflow是什么?aa"
 msgstr ""
 
 #: ../../index.rst:12
